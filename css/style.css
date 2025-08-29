@@ -72,26 +72,42 @@ section {
   color: white;
 }
 
-#hero h1,
-#hero h4,
-#hero p {
+#hero h1 {
+  font-size: 55px;
+  color: #fff;
   margin-bottom: 10px;
+
+}
+#hero h4 {
+  color: #eeecec;
+  font-size: 30px;
+  font-weight: 500px;
+  margin-bottom: 12px;
+}
+#hero p {
+  color: #eeecec;
+  font-size: 16px;
+  line-height: 25px;
+  width: 850px;
+
+  
 }
 
 #hero button {
-  margin-top: 20px;
-  padding: 10px 25px;
-  font-size: 1rem;
-  background-color: #00bcd4;
+  margin: 10px 0;
+  padding: 15px 60px;
+  font-size: 16px;
+  background-color: #fff;
   border: none;
-  color: white;
+  color: teal;
   cursor: pointer;
   border-radius: 5px;
-  transition: background 0.3s ease;
+  text-transform: uppercase;
+  letter-spacing: 3px;
 }
 
 #hero button:hover {
-  background-color: #0097a7;
+  background-color: #eeeded;
 }
 
 #hero .socials-wrapper ul {
