@@ -44,7 +44,6 @@ header .logo {
   color: #444;
   font-size: 24px;
   text-decoration: none;
-
 }
 
 nav ul {
@@ -76,7 +75,6 @@ section {
   font-size: 55px;
   color: #fff;
   margin-bottom: 10px;
-
 }
 #hero h4 {
   color: #eeecec;
@@ -89,8 +87,6 @@ section {
   font-size: 16px;
   line-height: 25px;
   width: 850px;
-
-  
 }
 
 #hero button {
@@ -114,7 +110,7 @@ section {
   margin-top: 30px;
   display: flex;
   justify-content: center;
-  gap: 15px;
+  gap: 30px;
 }
 
 /* ABOUT SECTION */
@@ -124,18 +120,37 @@ section {
 
 #about .container {
   display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
+  max-width: 800px;
+  gap: 5px;
+  margin: auto;
   align-items: center;
 }
 
-#about .container > div {
-  flex: 1 1 45%;
+#about .about-left {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
+#about .about-left img {
+  width: 80%;
+  border-radius: 20px;
+  box-shadow: 2px 4px 20px;
+}
 #about h3 {
   margin-bottom: 20px;
-  color: teal;
+  font-size: 45px;
+  list-style: 20px;
+}
+
+#about .about-right {
+  width: 50%;
+}
+
+#about .about-right p {
+  margin-bottom: 15px;
+  line-height: 20px;
 }
 
 #about button {
@@ -145,6 +160,11 @@ section {
   border: none;
   cursor: pointer;
   border-radius: 5px;
+}
+
+#about .container {
+  display: flex;
+  align-items: center;
 }
 
 /* PROJECTS SECTION */
